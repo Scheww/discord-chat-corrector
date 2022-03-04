@@ -14,7 +14,7 @@ client.on('message', message => {
     {
         message.reply("Pone la musica donde se debe!")
         musicChannel.send(message.content)
-        message.delete()
+        message.delete();
     }
 });
 
